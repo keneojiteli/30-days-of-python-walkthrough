@@ -50,6 +50,10 @@ print(len(f_name))
 check = len(f_name) == len(l_name)
 print(f"Is the length of f_name equal to the length of l_name? {check}")
 
+#alternative way to compare length
+check1 =  len(f_name) is len(l_name)
+print(f"Is the length of f_name equal to the length of l_name? {check1}")
+
 #2.4 Declare 5 as num_one and 4 as num_two
 num_one, num_two = 5, 4
 
